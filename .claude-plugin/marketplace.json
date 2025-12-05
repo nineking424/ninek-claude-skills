@@ -1,0 +1,22 @@
+{
+  "name": "ninek-claude-skills",
+  "owner": {
+    "name": "nineking424",
+    "email": "nineking424@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for marketplace distribution and management",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-packager",
+      "description": "Tools for packaging skills and generating marketplace configurations",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/skill-packager"
+      ]
+    }
+  ]
+}
